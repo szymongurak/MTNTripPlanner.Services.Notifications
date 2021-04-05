@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>MTNTripPlanner.Services.Notifications.Application</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MTNTripPlanner.Services.Notifications.Core\MTNTripPlanner.Services.Notifications.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Convey.CQRS.Commands" Version="0.4.403" />
+        <PackageReference Include="Convey.CQRS.Events" Version="0.4.403" />
+        <PackageReference Include="Convey.CQRS.Queries" Version="0.4.403" />
+        <PackageReference Include="Convey.MessageBrokers" Version="0.4.403" />
+    </ItemGroup>
+
+</Project>
